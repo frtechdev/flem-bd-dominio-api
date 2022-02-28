@@ -1,6 +1,6 @@
 {
   "name": "flem-bd-dominio-api",
-  "version": "0.1.0",
+  "version": "0.0.1-220228dx",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -19,6 +19,6 @@
     "clean-jsdoc-theme": "^3.3.3",
     "eslint": "8.10.0",
     "eslint-config-next": "12.1.0",
-    "jsdocs": "^1.0.0"
+    "jsdoc": "^3.6.10"
   }
 }
