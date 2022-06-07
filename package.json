@@ -1,6 +1,6 @@
 {
   "name": "flem-bd-dominio-api",
-  "version": "0.0.1-220228dx",
+  "version": "0.0.5-220607",
   "private": true,
   "scripts": {
     "dev": "next dev",
