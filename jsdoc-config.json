@@ -1,8 +1,8 @@
 {
   "source": {
     "include": ["src", "README.md"],
-    "includePattern": ".js$",
-    "excludePattern": "(node_modules/|docs/|.next)"
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(node_modules/|docs)"
   },
 
   "plugins": ["plugins/markdown"],
@@ -10,7 +10,7 @@
   "opts": {
     "encoding": "utf8",
     "readme": "./README.md",
-    "destination": "docs/",
+    "destination": "public/",
     "recurse": true,
     "verbose": true,
     "template": "./node_modules/clean-jsdoc-theme",
