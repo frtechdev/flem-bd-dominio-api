@@ -1,5 +1,6 @@
 import Sybase from "sybase-promised";
 
+// PARÂMETROS DE CONEXÃO AO SYBASE
 const connOptions = {
   host: process.env.DB_HOST,
   port: process.env.DB_PORT,
@@ -8,4 +9,7 @@ const connOptions = {
   password: process.env.DB_PASSWORD,
 };
 
-export const db = new Sybase(connOptions);
+/**
+ * Inicializa o Serviço de Conexão ao Sybase.
+ */
+export const sybaseConnector = new Sybase(connOptions);
